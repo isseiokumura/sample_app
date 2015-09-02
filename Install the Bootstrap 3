@@ -1,0 +1,35 @@
+[33mcommit 9eca0a7d39f8d0398e340781b01bd1c30e422136[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Wed Sep 2 01:15:14 2015 +0000
+
+    Install the Bootstrap 3
+
+[33mcommit 517f2642cfd5321060da69cde43277bfff2a850a[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Tue Sep 1 02:05:02 2015 +0000
+
+    add a full_title helper
+
+[33mcommit 7989d7319e4e27ca11744ca0cfbc08f8a6d51e95[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Mon Aug 31 01:43:40 2015 +0000
+
+    Finish static pages
+
+[33mcommit 02f73098ae38c2bee1a6aa68c05b59b70bcec1fe[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Fri Aug 28 01:26:03 2015 +0000
+
+    Add a StaticPages controller
+
+[33mcommit 95851d79f714de1b81c1d619c743a89e1558ac60[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Fri Aug 28 00:40:52 2015 +0000
+
+    Improve the README
+
+[33mcommit b2711280101b343d296155a9a1d8c01d127365b2[m
+Author: isseiokumura <issei096@icloud.com>
+Date:   Fri Aug 28 00:37:43 2015 +0000
+
+    Initial commit
