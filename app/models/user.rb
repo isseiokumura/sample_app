@@ -12,8 +12,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
          
   def feed
-    Micropost.where("user_id = ?", id)
-  end   
+    Micropost.from_users_followed_by(self)
+  end 
   
   def following?(other_user)
     relationships.find_by(followed_id: other_user.id)
@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
     relationships.create!(followed_id: other_user.id)
   end
   
-    def unfollow!(other_user)
+  def unfollow!(other_user)
     relationships.find_by(followed_id: other_user.id).destroy
   end
 
